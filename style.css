@@ -160,6 +160,7 @@ input[type=search]{
     }
     #footer{
         position:fixed;
+        width: 185%;
         bottom:0%;
     }
 }

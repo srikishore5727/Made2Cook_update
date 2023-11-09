@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 600px;
+    background:url(./assests/plate-design.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:right;
+}
+#logo{
+    height:70px;
+    display: block;
+    margin: auto;
+}
+#con1{
+    color:#368f3e;
+}
+
+.content{
+    font-size:70px;
+}
+#about{
+    font-family:'mali';
+    font-size: 40px;
+}
+.top-content{
+    margin-left: 30px;
+}
+
+input[type=search]{
+    margin-top: 40px;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=search]:focus {
+    width: 25%;
+  }
+
+#text-content{
+    margin-top: 50px;
+}
+#random-recipe{
+    font-family:'mali';
+    margin-top:140px;
+    height: 100vh;
+    background-color: #40e24019;
+}
+.green-col{
+    color:#1bc738;
+}
+.rec{
+    font-size: 40px;
+    text-align: center;
+}
+#random-box{ 
+    margin:15px auto;
+    background-color:#58BA6D;
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+#searched-recipe{
+    font-family:'mali';
+}
+
+#tot-recipe{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.recipe-box{
+    border-radius: 10px;
+    background-color: #58BA6D;
+    height:400px;
+    width:300px;
+}
+
+#down-arrow{
+    height: 80px;
+    display: block;
+    margin: auto;
+    border: 2px solid #4FBA6F;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+#popup{
+    font-family: 'mali';
+    display: none;
+    position: absolute;
+    top:100vh;
+    height: 100vh;
+    width:100vw;
+}
+
+.ingredients-div{
+    border: 2px solid black;
+    background-color: white;
+    height: auto;
+    margin: 30px auto;
+    width: 70%;
+    padding: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#result{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width:500px){
+    body{
+        background:none;
+        background-color: lightgreen;
+    }
+    #random-recipe{
+        background-color: white;
+        width:100vh;
+    }
+    #searched-recipe{
+        width: 100vh;
+    }
+    #logo{
+        margin-left:30%;
+    }
+    #search-opt{
+        margin-left:40%;
+        width: 100%;
+    }
+    .rec{
+        margin: 20px auto;
+    }
+    .ingredients-div{
+        width:100vh;
+    }
+}
+
+#footer{
+    margin-top:30px;
+    height:40px;
+    background-color:#58BA6D;
+    position:sticky;
+    bottom:0%;
+}
+#footer p{
+    font-family:"mali";
+    text-align:center;
+    color: black;
+    font-size:20px;
+    padding: 10px;
+    font-weight: bolder;
+}

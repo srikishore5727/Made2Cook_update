@@ -159,7 +159,7 @@ input[type=search]{
         width:100vh;
     }
     #footer{
-        position:sticky;
+        position:fixed;
         bottom:0%;
     }
 }

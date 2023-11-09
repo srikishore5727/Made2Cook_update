@@ -158,6 +158,10 @@ input[type=search]{
     .ingredients-div{
         width:100vh;
     }
+    #footer{
+        position:sticky;
+        bottom:0%;
+    }
 }
 
 #footer{
